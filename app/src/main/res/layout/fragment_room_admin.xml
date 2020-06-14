@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragments.RoomAdminFragment">
+
+
+    <TextView
+        android:id="@+id/tvRoomStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvRoomStatus" />
+
+    <TextView
+        android:id="@+id/tvTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTheme" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        tools:listitem="@layout/rv_user" />
+
+    <TextView
+        android:id="@+id/tvAverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvAverage" />
+
+    <Button
+        android:id="@+id/btnActionVoting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnStopVotingText"/>
+
+    <EditText
+        android:id="@+id/etTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etTheme"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnThemeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnThemeNameText"/>
+</LinearLayout>

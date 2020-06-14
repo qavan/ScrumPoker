@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_login">Login</string>
+    <string name="menu_rooms">Rooms</string>
+    <string name="menu_create_room">Create room</string>
+    <string name="etServerHint">Server Address</string>
+    <string name="etLoginHint">Login</string>
+    <string name="etPasswordHint">Password</string>
+    <string name="btnLoginText">Login</string>
+    <string name="etRoomName">Room Name</string>
+    <string name="etRoomPassword">Room Password</string>
+    <string name="btnCreateText">Create</string>
+    <string name="tvRoomName">Room Name</string>
+    <string name="tvAccessLevel">Access Level</string>
+    <string name="tvRoomStatus">Room Status</string>
+    <string name="tvTheme">Theme</string>
+    <string name="tvDate">TextView</string>
+    <string name="tvAverage">0</string>
+    <string name="btnRegisterText">Register</string>
+    <string name="menu_results">Results</string>
+    <string name="tvUserName">Username</string>
+    <string name="tvUserStatus">...</string>
+    <string name="btnStopVotingText">Stop voting</string>
+    <string name="btnThemeNameText">Set theme</string>
+    <string name="etTheme">Theme of voting</string>
+    <string name="etTitle">Input password</string>
+    <string name="tvRoomNameTitle">Room name:</string>
+    <string name="tvRoomThemeTitle">Theme of voting</string>
+    <string name="tvRoomTheme">Theme</string>
+    <string name="tvRoomAverageTitle">Acerage:</string>
+    <string name="tvRoomAverage">0</string>
+    <string name="tvRoomDateTitle">Date:</string>
+    <string name="tvRoomDate">03.05.2005 13:45</string>
+    <string name="invalidLogin">Login err</string>
+    <string name="invalidPassword">Password err</string>
+    <string name="errDuringLogin">Error during login</string>
+    <string name="errDuringRegister">Error during register</string>
+</resources>

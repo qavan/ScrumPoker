@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragments.RoomUserFragment">
+
+    <TextView
+        android:id="@+id/tvRoomStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvRoomStatus" />
+
+    <TextView
+        android:id="@+id/tvTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTheme" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        tools:listitem="@layout/rv_user" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tvAverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvAverage" />
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnVote1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnVote11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnVote3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnVote5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnVote7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnVote9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnVote13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>
