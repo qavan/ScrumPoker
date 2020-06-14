@@ -1,7 +1,6 @@
 package viewmodels
 
 import androidx.lifecycle.MutableLiveData
-import com.qavan.sp.R
 import default
 import kotlinx.coroutines.*
 import set

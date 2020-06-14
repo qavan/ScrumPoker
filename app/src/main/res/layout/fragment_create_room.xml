@@ -10,7 +10,7 @@
     android:padding="35dp" >
 
     <EditText
-        android:id="@+id/etLogin"
+        android:id="@+id/etRoomName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/etRoomName"
@@ -18,7 +18,7 @@
         android:autofillHints="" />
 
     <EditText
-        android:id="@+id/etPassword"
+        android:id="@+id/etRoomPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/etRoomPassword"
@@ -27,7 +27,7 @@
         tools:ignore="TextFields" />
 
     <Button
-        android:id="@+id/btnLoginToRoom"
+        android:id="@+id/btnRoomCreate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnCreateText"/>

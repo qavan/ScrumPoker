@@ -26,8 +26,8 @@
     <string name="btnRegisterText">Register</string>
     <string name="menu_results">Results</string>
     <string name="tvUserName">Username</string>
-    <string name="tvUserStatus">...</string>
-    <string name="btnStopVotingText">Stop voting</string>
+    <string name="tvUserStatus">…</string>
+    <string name="btnStopVotingText">Action this voting</string>
     <string name="btnThemeNameText">Set theme</string>
     <string name="etTheme">Theme of voting</string>
     <string name="etTitle">Input password</string>
@@ -42,4 +42,7 @@
     <string name="invalidPassword">Password err</string>
     <string name="errDuringLogin">Error during login</string>
     <string name="errDuringRegister">Error during register</string>
+    <string name="menu_result">Result</string>
+    <string name="menu_admin">Admin room</string>
+    <string name="menu_user">User room</string>
 </resources>

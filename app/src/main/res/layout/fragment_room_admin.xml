@@ -31,7 +31,7 @@
         android:text="@string/tvAverage" />
 
     <Button
-        android:id="@+id/btnActionVoting"
+        android:id="@+id/btnAdminAction"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnStopVotingText"/>
@@ -45,7 +45,7 @@
         android:importantForAutofill="no" />
 
     <Button
-        android:id="@+id/btnThemeName"
+        android:id="@+id/btnAdminTheme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnThemeNameText"/>

@@ -28,4 +28,23 @@
         android:name="fragments.ResultsBrowserFragment"
         android:label="@string/menu_results"
         tools:layout="@layout/fragment_results_browser" />
+
+    <fragment
+        android:id="@+id/nav_result"
+        android:name="fragments.ResultFragment"
+        android:label="@string/menu_result"
+        tools:layout="@layout/fragment_result" />
+
+    <fragment
+        android:id="@+id/nav_room_admin"
+        android:name="fragments.RoomAdminFragment"
+        android:label="@string/menu_admin"
+        tools:layout="@layout/fragment_room_admin" />
+
+    <fragment
+        android:id="@+id/nav_room_user"
+        android:name="fragments.RoomUserFragment"
+        android:label="@string/menu_user"
+        tools:layout="@layout/fragment_room_user" />
+
 </navigation>

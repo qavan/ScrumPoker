@@ -9,13 +9,28 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_login" />
         <item
+            android:id="@+id/nav_create_room"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_create_room" />
+        <item
+            android:id="@+id/nav_room_user"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_user"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_room_admin"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_admin"
+            android:visible="false" />
+        <item
             android:id="@+id/nav_rooms"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_rooms" />
         <item
-            android:id="@+id/nav_create_room"
+            android:id="@+id/nav_result"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_create_room" />
+            android:title="@string/menu_result"
+            android:visible="false" />
         <item
             android:id="@+id/nav_results"
             android:icon="@drawable/ic_menu_slideshow"
